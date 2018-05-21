@@ -14,7 +14,19 @@ import android.widget.TextView;
 
 public class MyRecycViewAdapter extends RecyclerView.Adapter<MyRecycViewAdapter.ViewHolder> {
     private Context context;
-    private String[] mData = new String[]{"RxJava2","RxBus","权限管理","Bugly_测试"};
+    private String[] mData = new String[]{"RxJava2","RxBus","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"
+            ,"权限管理","Bugly_测试","权限管理","Bugly_测试","权限管理","Bugly_测试"};
     private OnItemClickListener mOnItemClickListener;
 
     public MyRecycViewAdapter(Context context){

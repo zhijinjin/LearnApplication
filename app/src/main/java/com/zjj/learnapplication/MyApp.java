@@ -3,8 +3,10 @@ package com.zjj.learnapplication;
 import android.annotation.TargetApi;
 import android.app.Application;
 import android.content.Context;
+import android.os.Build;
 import android.os.Environment;
 import android.os.StrictMode;
+import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
@@ -27,6 +29,7 @@ import java.util.Locale;
  */
 
 public class MyApp extends Application {
+    @RequiresApi(api = Build.VERSION_CODES.FROYO)
     @Override
     public void onCreate() {
         super.onCreate();

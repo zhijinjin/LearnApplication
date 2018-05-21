@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.zjj.mytoolbarlibrary.MyToolBar
+        android:id="@+id/toolbar"
+        app:titleText="标题"
+        app:leftIcon="@drawable/menu"
+        app:rightIcon="@drawable/set"
+        app:leftColor="#ffffff"
+        app:titleColor="#ffffff"
+        app:leftAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        app:titleAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="?attr/actionBarSize"/>
+
+</FrameLayout>
